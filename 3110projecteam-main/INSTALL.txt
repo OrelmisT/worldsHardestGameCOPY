@@ -1,0 +1,14 @@
+Install instructions:
+
+sudo apt update 
+sudo apt install -y libpng-dev libjpeg-dev libtiff-dev libxpm-dev libfreetype-dev libgif-dev
+opam update
+opam upgrade -y
+opam install Graphics -y
+opam install camlimages -y
+
+OR RUN [make install]
+
+
+Note: If you have issues with the graphics module when running the program, try following these same steps with this virtual machine instead: https://cs3110.github.io/textbook/chapters/appendix/vm.html
+ 
